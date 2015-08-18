@@ -14,6 +14,7 @@ makeCacheMatrix <- function(x = matrix()) {
         mat <<- m
         invMat <<- NULL
     }
+    set(x)
     
     get <- function() {return(mat)}
     
